@@ -1,0 +1,23 @@
+/* Responsividade */
+@media screen and (max-width: 600px) {
+
+    main,
+    .menu-navegacao,
+    .titulo-pagina,
+    .subtitulo-pagina,
+    .formulario-contato {
+      width: 100%;
+    }
+  
+    .titulo-pagina {
+      margin: 10px 0;
+    }
+  }
+  
+  @media screen and (max-width: 380px) {
+  
+    .menu-navegacao li,
+    .rodape {
+      padding: 10px 5px;
+    }
+  }

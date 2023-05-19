@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato conosco para falar sobre orçamentos, pedidos, prazos ou só para bater um bom papo.">
+  <meta name="author" content="João Roccella">
+  
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Loja Virtual - Contato</title>
+  <script src="https://kit.fontawesome.com/39b9ad0e36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="./catalogo.html">Catálogo</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <h1 class="titulo-pagina">Contato</h1>
+    <h2 class="subtitulo-pagina">Entre em contato conosco</h2>
+  </header>
+
+  <main class="contato">
+    <section class="secao-contato">
+      <form class="contact-form" action="" method="" onsubmit="alert('Formulário enviado!')">
+        
+        <label for="name">Nome completo:</label>
+        <input type="text" id="name" name="name" autofocus required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Assunto:</label>
+        <select id="subject" name="subject" required>
+          <option value="Prazo de entrega">Prazo de entrega</option>
+          <option value="Orçamento">Orçamento</option>
+          <option value="Pagamento">Pagamento</option>
+          <option value="Outro">Outro</option>
+        </select>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message"></textarea> 
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <button>Enviar</button>
+      </form>
+      
+      <aside class="complementary-info">
+        
+        <div class="address-image">
+          <img src="./img/299.jpg" alt="Imagem da fachada da sapataria">
+        </div>
+        
+        <div class="address-info">
+          
+          <div class="opening-hours">
+            <h3>Horário de funcionamento</h3>
+            <p>De segunda a sexta</p>
+            <p>Das 08h às 18h</p>
+            <p>Sábados</p>
+            <p>Das 08h às 12h</p>
+          </div>
+
+          <div class="links-sociais">
+            <a href="#instagram">
+              <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+            <a href="#facebook">
+              <i class="fa-brands fa-facebook fa-xl"></i>
+            </a>
+          </div>
+
+        </div>
+        
+      </aside>
+    
+    </section>
+  </main>
+  
+  <footer class="rodape">
+
+    <address class="main-address">
+      
+      <h3><i class="fa-solid fa-house"></i> Endereço</h3>
+      <p>Rua Forte do Leme, 00</p>
+      <p>Jardim Santa Adélia</p>
+      <p>São Paulo - SP</p>
+      <p>(11) 3214-0000</p>
+    </address>
+  </footer>
+
+</body>
+</html>
